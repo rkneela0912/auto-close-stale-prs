@@ -1,0 +1,12 @@
+name: 'auto close stale prs'
+description: '🗑️ Close stale PRs with configurable rules'
+author: 'rkneela0912'
+inputs:
+  github_token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+branding:
+  icon: 'check'
+  color: 'blue'
